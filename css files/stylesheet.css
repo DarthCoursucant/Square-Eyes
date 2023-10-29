@@ -133,7 +133,7 @@ body {
     justify-content: space-around; 
   }
 
-  /* Hero Image Setting */
+  /* Best Seller Hero Image  Setting */
   .hero-image1 {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://mpudata.sfo2.digitaloceanspaces.com/original/2X/6/6f7d37cd5f7ef08a2a17602e0aa6ad3a6880d747.jpeg");
@@ -141,12 +141,14 @@ body {
     margin: 20px;
   }
 
+  /*New Arrivals Hero Image Setting*/
   .hero-image2 {
     padding-left: 20px;
     margin: 20px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://free4kwallpapers.com/uploads/originals/2019/11/21/star-wars-wallpaper.jpg")
   }
 
+  
   .hero-image1, .hero-image2 {
     border-radius: 15px;
     background-position: center;
@@ -163,4 +165,30 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+  }
+
+  .flex-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .flex-content img {
+    width: 100px;
+    height: 150px;
+    float: left;
+    padding: 40px;
+  }
+  
+  .text {
+    font-size: 17px;
+    padding-left: 10px;
+    padding-top: 10%;
+    float: left;
+  }
+
+  .h1 {
+    align-items: center;
+    justify-content: center;
   }
