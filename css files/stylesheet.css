@@ -124,8 +124,8 @@ body {
     height: 200px;
     margin: 10px;
     text-align: center;
-    line-height: 75px;
-    font-size: 30px;
+    line-height: 20px;
+    font-size: 15px;
   }
 
   .around { 
@@ -135,7 +135,7 @@ body {
   /* Hero Image Setting */
   .hero-image1 {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://galacticsabers.co/wp-content/uploads/2023/08/mattgallodesigns_the_planet_naboo_from_star_wars_hyper_realism__92ca62a7-f8f0-458f-a6a7-49c3120150de-1024x574.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://mpudata.sfo2.digitaloceanspaces.com/original/2X/6/6f7d37cd5f7ef08a2a17602e0aa6ad3a6880d747.jpeg");
     padding-left: 20px;
     margin: 20px;
     justify-content: left;
