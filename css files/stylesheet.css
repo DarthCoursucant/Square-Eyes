@@ -81,8 +81,9 @@ body {
     display: flex;
     background-color: #C0A9BD;
     margin: -10px;
-    padding: 100px;
+    padding: 80px;
     position: relative;
+    justify-content: center;
   }
   
   /* MoFlex Buttons Settings*/
@@ -138,15 +139,11 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://mpudata.sfo2.digitaloceanspaces.com/original/2X/6/6f7d37cd5f7ef08a2a17602e0aa6ad3a6880d747.jpeg");
     padding-left: 20px;
     margin: 20px;
-    justify-content: left;
-    align-items: left;
   }
 
   .hero-image2 {
     padding-left: 20px;
     margin: 20px;
-    justify-content: right right;
-    align-items: right right;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://free4kwallpapers.com/uploads/originals/2019/11/21/star-wars-wallpaper.jpg")
   }
 
