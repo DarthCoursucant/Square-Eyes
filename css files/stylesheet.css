@@ -110,14 +110,17 @@ body {
     border: 2px solid white;
   }
 
+  /*Flex Wrap Property*/
   .wrap { flex-wrap: wrap; }
 
 
+  /*Flex Setting To Hero Images*/
   .flex-parent {
     display: flex;
     padding-top: 40px;
   }
   
+  /*Hero Images Flex Main Setting*/
   .flex-parent > div {
     font-family: monospace;
     background-color: LightGrey;
@@ -130,6 +133,7 @@ body {
   }
 
 
+  /*Buttons In Hero Images Flex*/
   .flex-parent a {
     color: #000000;
     text-align: center;
@@ -144,11 +148,13 @@ body {
     margin: 5px;
   }
 
+  /*Hero Images Buttons While Hover*/
   .flex-parent a:hover {
     background-color: #000000;
     color: #ffffff;
   }
 
+  /*Hero Images Flex Setting*/
   .around { 
     justify-content: space-around; 
   }
@@ -168,7 +174,7 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://free4kwallpapers.com/uploads/originals/2019/11/21/star-wars-wallpaper.jpg")
   }
 
-  
+  /*Both Heroes Setting*/
   .hero-image1, .hero-image2 {
     border-radius: 15px;
     background-position: center;
@@ -187,6 +193,7 @@ body {
     color: white;
   }
 
+  /*Flex To The Content On All Category Sites*/
   .flex-content {
     display: flex;
     align-items: center;
@@ -194,6 +201,7 @@ body {
     padding: 20px;
   }
   
+  /*Images In Flex For All Pages*/
   .flex-content img {
     width: 100px;
     height: 150px;
@@ -201,6 +209,7 @@ body {
     padding: 20px;
   }
   
+  /*Text Code*/
   .text {
     font-size: 17px;
     padding-left: 10px;
@@ -208,6 +217,7 @@ body {
     float: left;
   }
 
+  /*Position Of All H1s*/
   h1 {
     text-align: center;
   }
@@ -254,4 +264,64 @@ textarea {
   height: 5em;
   resize: vertical;
   resize: none;
+}
+
+.button {
+  padding-left: 90px;
+}
+
+button {
+  margin-left: 0.3em;
+}
+
+h1#contact {
+  margin-left: 20em;
+  text-align: center;
+}
+
+nav ul {
+  border: 1px solid #00ff00;
+  list-style-type: none;
+  display: block;
+  padding-left: 0;
+  position: absolute;
+  right: 0px;
+}
+
+nav li {
+  /*
+  border: 1px solid #ff0000;
+  */
+  float: left;
+  margin-right: 10px;
+  background-color: #000000;
+}
+
+nav li a {
+  text-decoration: none;
+  width: 100px;
+  display: inline-block;
+  color: #fafafa;
+  padding: 2px 5px;
+  border: 1px solid #000000;
+  text-align: center;
+}
+
+nav li:last-child {
+  margin-left: 0;
+}
+
+nav li a:active {
+  background-color: #4caf50;
+  color: #fafafa;
+  border-color: #255a5e;
+}
+
+nav li a:hover {
+  background-color: #fafafa;
+  color: #000000;
+}
+
+nav li.special {
+  float: right;
 }
