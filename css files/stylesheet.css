@@ -217,8 +217,8 @@ body {
     float: left;
   }
 
-  /*Position Of All H1s*/
-  h1 {
+  /*Position Of All H1s* + H2s */
+  h1, h2 {
     text-align: center;
   }
 
