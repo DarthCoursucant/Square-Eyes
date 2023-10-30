@@ -224,26 +224,26 @@ body {
 
   form {
     margin: 50px auto;
-    width: 400px;
+    width: 600px;
     padding: 1em;
-    border: 2px solid #fafafa;
+    border: 2px solid #000000;
     border-radius: 1em;
   }
 
   ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
+    padding: 5px;
+    margin: 5px;
   }
 
   form li + li {
-    margin-top: 1em;
+    margin-top: 1px;
   }
   
   label {
     display: inline-block;
-    width: 90px;
-    text-align: right;
+    width: 200px;
+    text-align: center;
   }
   
   label::after {
@@ -252,9 +252,9 @@ body {
 
   input,textarea {
   font: 1em sans-serif;
-  width: 300px;
+  width: 350px;
   box-sizing: border-box;
-  border: 2px solid #849;
+  border: 2px solid #000000;
   outline: none;
   transition: border 2s, background-color 2s;
 }
@@ -264,57 +264,6 @@ textarea {
   height: 5em;
   resize: vertical;
   resize: none;
-}
-
-.button {
-  padding-left: 90px;
-}
-
-button {
-  margin-left: 0.3em;
-}
-
-h1#contact {
-  margin-left: 20em;
-  text-align: center;
-}
-
-nav ul {
-  border: 1px solid #00ff00;
-  list-style-type: none;
-  display: block;
-  padding-left: 0;
-  position: absolute;
-  right: 0px;
-}
-
-nav li {
-  /*
-  border: 1px solid #ff0000;
-  */
-  float: left;
-  margin-right: 10px;
-  background-color: #000000;
-}
-
-nav li a {
-  text-decoration: none;
-  width: 100px;
-  display: inline-block;
-  color: #fafafa;
-  padding: 2px 5px;
-  border: 1px solid #000000;
-  text-align: center;
-}
-
-nav li:last-child {
-  margin-left: 0;
-}
-
-nav li a:active {
-  background-color: #4caf50;
-  color: #fafafa;
-  border-color: #255a5e;
 }
 
 nav li a:hover {
