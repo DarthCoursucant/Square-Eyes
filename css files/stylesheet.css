@@ -178,7 +178,7 @@ body {
     width: 100px;
     height: 150px;
     float: left;
-    padding: 40px;
+    padding: 20px;
   }
   
   .text {
@@ -188,7 +188,6 @@ body {
     float: left;
   }
 
-  .h1 {
-    align-items: center;
-    justify-content: center;
+  h1 {
+    text-align: center;
   }
