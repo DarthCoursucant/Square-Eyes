@@ -13,10 +13,14 @@ body {
     text-align: center;
   }
 
+  /* Header Button Code*/
+.headerbutton {
+  float: left;
+}
+
 /* Header Buttons + Body Buttons Common Code*/
 .headerbutton, .bodybuttons a {
     margin: 5px;
-    float: left;
     cursor: pointer;
   }
 
@@ -37,9 +41,10 @@ body {
   line-height: 25px;
 }
 
-  /*Buttons In Body Code*/
+  /*Buttons In Flex-Parent Code*/
 .bodybuttons a {
-  width: 90px;
+  float: center;
+  padding: 10px;
 }
 
   /*Buttons In Hero Images Flex*/
@@ -208,15 +213,16 @@ body {
     width: 100px;
     height: 150px;
     float: left;
-    padding: 20px;
+    padding: 30px;
   }
   
   /*Text Code*/
   .text {
     font-size: 17px;
-    padding-left: 10px;
+    padding-left: -20px;
     padding-top: 10%;
     float: left;
+    text-align: center;
   }
 
   /*Position Of All H1s* + H2s */
