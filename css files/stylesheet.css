@@ -45,6 +45,7 @@ body {
 .bodybuttons a {
   float: center;
   padding: 10px;
+  margin-top: 30px;
 }
 
   /*Buttons In Hero Images Flex*/
@@ -205,7 +206,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 30px;
   }
   
   /*Images In Flex For All Pages*/
@@ -213,13 +214,13 @@ body {
     width: 100px;
     height: 150px;
     float: left;
-    padding: 30px;
+    padding: 40px;
   }
   
   /*Text Code*/
   .text {
     font-size: 17px;
-    padding-left: -20px;
+    margin-left: -20px;
     padding-top: 10%;
     float: left;
     text-align: center;
