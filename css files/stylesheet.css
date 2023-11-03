@@ -3,13 +3,48 @@ body {
     background-color: #C0A9BD;
   }
 
-/* Header Buttons Code*/
-.headerbutton {
-    border: 2px solid black;
+/*All Buttons Main Settings*/
+.flex-container a, .bodybuttons a, .flex-parent a, .headerbutton {
     background-color: #ffffff;
+    border-radius: 15px;
+    border: 2px solid #000000;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+  }
+
+/* Header Buttons + Body Buttons Common Code*/
+.headerbutton, .bodybuttons a {
+    margin: 5px;
     float: left;
     cursor: pointer;
-    border-radius: 15px;
+  }
+
+/* MoFlex Buttons Settings*/
+.flex-container a {
+    display: block;
+    width: 85px;
+    height: 40px;
+    margin: 35px;
+    line-height: 20px;
+    font-size: 15px;
+    padding: 15px;
+  }
+
+  /*Body Buttons + Flex-Parent Buttons + Header Links Common Code*/
+.bodybuttons a, .flex-parent a, .header a {
+  font-size: 17px; 
+  line-height: 25px;
+}
+
+  /*Buttons In Body Code*/
+.bodybuttons a {
+  width: 90px;
+}
+
+  /*Buttons In Hero Images Flex*/
+  .flex-parent a {
+    float: left;
     margin: 5px;
   }
   
@@ -26,10 +61,8 @@ body {
     color: black;
     text-align: center;
     text-decoration: none;
-    font-size: 17px; 
-    line-height: 25px;
     padding: 15px;
-    border-radius: 14px;
+    border-radius: 15px;
   }
   
   /* Background Of Links In Header While Hoover */
@@ -72,7 +105,7 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 30px;
+    height: 20px;
     background-color: #ffffff;
     padding: 20px;
 }
@@ -86,23 +119,7 @@ body {
     position: relative;
     justify-content: center;
   }
-  
-  /* MoFlex Buttons Settings*/
-  .flex-container a {
-    background-color: white;
-    color: #000000;
-    display: block;
-    width: 85px;
-    height: 40px;
-    margin: 35px;
-    text-align: center;
-    line-height: 20px;
-    font-size: 15px;
-    text-decoration: none;
-    padding: 15px;
-    border: 2px solid black;
-    border-radius: 15px;
-  }
+
 
   /* Flex Setting While Hoover */
   .flex-container a:hover {
@@ -133,21 +150,6 @@ body {
     font-size: 15px;
   }
 
-
-  /*Buttons In Hero Images Flex*/
-  .flex-parent a {
-    color: #000000;
-    text-align: center;
-    text-decoration: none;
-    font-size: 17px; 
-    line-height: 25px;
-    border: 2px solid black;
-    background-color: #ffffff;
-    float: left;
-    cursor: pointer;
-    border-radius: 15px;
-    margin: 5px;
-  }
 
   /*Hero Images Buttons While Hover*/
   .flex-parent a:hover {
@@ -282,17 +284,4 @@ form a {
   padding: 10px;
   text-decoration: none;
   color: #000000;
-}
-
-/*Buttons In Body Code*/
-.bodybuttons {
-  border: 2px solid #000000;
-  background-color: #ffffff;;
-  float: left;
-  cursor: pointer;
-  border-radius: 10px;
-  text-decoration: none;
-  color: #000000;
-  font-size: 10px; 
-  line-height: 10px;
 }
