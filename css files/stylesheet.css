@@ -141,7 +141,6 @@ body {
   /*Hero Images Flex Main Setting*/
   .flex-parent > div {
     font-family: monospace;
-    background-color: LightGrey;
     width: 300px;
     height: 200px;
     margin: 10px;
@@ -164,7 +163,7 @@ body {
 
   /* Best Seller Hero Image  Setting */
   .hero-image1 {
-    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    /* "linear-gradient" adds a darken background effect to the photo */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://mpudata.sfo2.digitaloceanspaces.com/original/2X/6/6f7d37cd5f7ef08a2a17602e0aa6ad3a6880d747.jpeg");
     padding-left: 20px;
     margin: 20px;
