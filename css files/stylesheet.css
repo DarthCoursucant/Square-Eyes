@@ -4,7 +4,7 @@ body {
   }
 
 /*All Buttons Main Settings*/
-.flex-container a, .bodybuttons a, .flex-parent a, .headerbutton {
+.flex-container a, .bodybuttons a, .flex-parent a, .headerbutton, .titlebutton a {
     background-color: #ffffff;
     border-radius: 15px;
     border: 2px solid #000000;
@@ -42,7 +42,7 @@ body {
 }
 
   /*Buttons In Flex-Parent Code*/
-.bodybuttons a {
+.bodybuttons a , .titlebutton a {
   float: center;
   padding: 10px;
   margin-top: 30px;
