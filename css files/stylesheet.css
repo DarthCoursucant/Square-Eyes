@@ -164,6 +164,10 @@ body {
    .wrap { flex-wrap: wrap; 
   }
 
+  .column { 
+    flex-direction: column; 
+  }
+
   /* Best Seller Hero Image  Setting */
   .hero-image1 {
     /* "linear-gradient" adds a darken background effect to the photo */
@@ -293,20 +297,33 @@ form a {
   text-align: center;
 }
 
-.flex-contact {
+.flex-contact, .flex-about {
   display: flex; 
   background-color: #C0A9BD;
 }
 
-.flex-contact > div {
+.flex-contact > div, .flex-about > div {
   border: 2px solid #000000;
   background-color: #ffffff;
-  width: 250px;
-  height: 100px;
   margin: 10px;
   text-align: center;
   line-height: 25px;
   font-size: 17px;
   border-radius: 15px;
   margin-inline: auto;
+}
+
+.flex-contact > div {
+  width: 250px;
+  height: 100px;
+}
+
+.abouttext {
+  width: 1100px;
+  height: 300px;
+}
+
+.abouttitle {
+  width: 800px;
+  height: 70px;
 }
