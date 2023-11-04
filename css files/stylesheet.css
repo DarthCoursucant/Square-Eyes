@@ -4,7 +4,7 @@ body {
   }
 
 /*All Buttons Main Settings*/
-.flex-container a, .bodybuttons a, .flex-parent a, .headerbutton, .titlebutton a {
+.flex-container a, .bodybuttons a, .flex-parent a, .headerbutton, .titlebutton a, .specialbutton a {
     background-color: #ffffff;
     border-radius: 15px;
     border: 2px solid #000000;
@@ -25,7 +25,7 @@ body {
   }
 
 /* MoFlex Buttons Settings*/
-.flex-container a {
+.flex-container a, .specialbutton a {
     display: block;
     width: 85px;
     height: 40px;
@@ -128,7 +128,7 @@ body {
 
 
   /* All The Buttons During The Hover State */
-  .flex-container a:hover, #pagetitle a:hover, .flex-parent a:hover, .bodybuttons a:hover {
+  .flex-container a:hover, #pagetitle a:hover, .flex-parent a:hover, .bodybuttons a:hover, .specialbutton a:hover {
     background-color: #000000;
     color: #ffffff;
     border: 2px solid white;
@@ -302,7 +302,7 @@ form a {
   background-color: #C0A9BD;
 }
 
-.flex-contact > div, .flex-about > div {
+.flex-contact > div, .abouttext, .abouttitle{
   border: 2px solid #000000;
   background-color: #ffffff;
   margin: 10px;
@@ -324,6 +324,10 @@ form a {
 }
 
 .abouttitle {
-  width: 800px;
-  height: 70px;
+  width: 900px;
+  height: 100px;
+}
+
+.specialbutton {
+  margin-inline: auto;
 }
