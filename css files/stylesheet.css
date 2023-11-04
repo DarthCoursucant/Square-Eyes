@@ -127,7 +127,7 @@ body {
   }
 
 
-  /* Flex Setting While Hoover */
+  /* All The Buttons During The Hover State */
   .flex-container a:hover, #pagetitle a:hover, .flex-parent a:hover, .bodybuttons a:hover {
     background-color: #000000;
     color: #ffffff;
