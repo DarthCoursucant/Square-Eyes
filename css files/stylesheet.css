@@ -134,9 +134,6 @@ body {
     border: 2px solid white;
   }
 
-  /*Flex Wrap Property*/
-  .wrap { flex-wrap: wrap; }
-
 
   /*Flex Setting To Hero Images*/
   .flex-parent {
@@ -155,9 +152,16 @@ body {
     font-size: 15px;
   }
 
-  /*Hero Images Flex Setting*/
+  /*All The Flex Properties */
   .around { 
     justify-content: space-around; 
+  }
+
+  .row { 
+    flex-direction: row; 
+  }
+
+   .wrap { flex-wrap: wrap; 
   }
 
   /* Best Seller Hero Image  Setting */
@@ -220,7 +224,7 @@ body {
   }
 
   /*Position Of All H1s* + H2s */
-  h1, h2 {
+  h1, h3 {
     text-align: center;
   }
 
@@ -274,17 +278,35 @@ textarea {
 
 /*Button In The Form*/
 form a {
-  border: 2px solid #000000;
-  background-color: #C0A9BD;;
+  border: 2px solid #C0A9BD;
+  background-color: #000000;
   float: center;
   cursor: pointer;
   border-radius: 15px;
   margin: 200px;
   padding: 10px;
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
 }
 
 #pagetitle > div {
   text-align: center;
+}
+
+.flex-contact {
+  display: flex; 
+  background-color: #C0A9BD;
+}
+
+.flex-contact > div {
+  border: 2px solid #000000;
+  background-color: #ffffff;
+  width: 250px;
+  height: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 17px;
+  border-radius: 15px;
+  margin-inline: auto;
 }
