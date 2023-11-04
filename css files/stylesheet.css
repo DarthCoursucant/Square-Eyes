@@ -339,6 +339,6 @@ form a {
   height: 100px;
 }
 
-.specialbutton {
+.specialbutton, .becomebutton {
   margin-inline: auto;
 }
