@@ -183,10 +183,18 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://free4kwallpapers.com/uploads/originals/2019/11/21/star-wars-wallpaper.jpg")
   }
 
+  
   .hero-image3 {
     margin: 20px;
     margin-inline: auto;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://rare-gallery.com/uploads/posts/552959-star-wars-wallpaper.jpg")
+  }
+
+  .hero-image4 {
+    margin: 20px;
+    margin-inline: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://e0.pxfuel.com/wallpapers/264/701/desktop-wallpaper-star-wars-star-wars-star-starwars-and-aesthetic-star-wars.jpg")
+
   }
 
   .hero-image3 {
@@ -194,8 +202,13 @@ body {
     width: 700px;
   }
 
+  .hero-image4 {
+    height: 400px;
+    width: 700px;
+  }
+
   /*Hero Images Setting*/
-  .hero-image1, .hero-image2, .hero-image3 {
+  .hero-image1, .hero-image2, .hero-image3, .hero-image4 {
     border-radius: 15px;
     background-position: center;
     background-repeat: no-repeat;
@@ -204,7 +217,7 @@ body {
   }
   
   /* Place text in the middle of the image Hero Images */
-  .hero-text1, .hero-text2, .hero-text3 {
+  .hero-text1, .hero-text2, .hero-text3, .hero-text4 {
     text-align: center;
     position: absolute;
     top: 50%;
