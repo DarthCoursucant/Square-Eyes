@@ -405,3 +405,19 @@ form a {
 .specialbutton, .becomebutton {
   margin-inline: auto;
 }
+
+
+/*Phone Size*/
+@media screen and (max-width: 600px) {
+  
+  .header a  {
+    height: 40px;
+    width: 35px;
+    font-size: 12px;
+  }
+    
+  .logo-container img, .logo-container  {
+    heigth: 40px;
+    width: 80px;
+  }
+}
