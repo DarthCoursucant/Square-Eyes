@@ -414,10 +414,46 @@ form a {
     height: 40px;
     width: 35px;
     font-size: 12px;
+    line-height: 15px;
+    margin-bottom: -10px;
+    margin-right: 5px;
   }
     
   .logo-container img, .logo-container  {
     heigth: 40px;
     width: 80px;
   }
-}
+
+  .flex-parent a {
+    height: 40px;
+    width: 60px;
+    font-size: 10px;
+    line-height: 20px;
+    margin-inline: auto;
+    margin-left: 50px;
+  }
+
+  .flex-parent > div {
+    height: 180px;
+    width: 200px;
+    padding-left: 20px;
+  }
+  
+  h3 {
+    width: 150px;
+    line-height: 20px;
+    font-size: 15px;
+  }
+
+  .flex-container a {
+    font-size: 13px;
+    line-height: 15px;
+    height: 30px;
+    width: 65px;
+    margin: 20px;
+  }
+  
+  .flex-container {
+    padding: 10px;
+  }
+} 
