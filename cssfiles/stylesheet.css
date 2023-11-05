@@ -370,6 +370,7 @@ form a {
   text-align: center;
 }
 
+/*Flex Color*/
 .flex-contact, .flex-about {
   display: flex; 
   background-color: #C0A9BD;
