@@ -43,7 +43,7 @@ body {
 
   /*Buttons In Flex-Parent Code*/
 .bodybuttons a , .titlebutton a {
-  float: center;
+  float: auto;
   padding: 10px;
   margin-top: 30px;
 }
@@ -155,7 +155,7 @@ body {
   .flex-container-shopping {
     display: flex;
     justify-content: center;
-    margin-inline: center;
+    margin-inline: auto;
   }
 
 
@@ -356,7 +356,7 @@ textarea {
 form a {
   border: 2px solid #C0A9BD;
   background-color: #000000;
-  float: center;
+  float: auto;
   cursor: pointer;
   border-radius: 15px;
   margin: 200px;
