@@ -136,7 +136,7 @@ body {
 
 
   /*Flex Setting To Hero Images*/
-  .flex-parent {
+  .flex-parent, .flex-cart {
     display: flex;
     padding-top: 40px;
   }
@@ -152,9 +152,21 @@ body {
     font-size: 15px;
   }
 
+  .flex-container-shopping {
+    display: flex;
+    justify-content: center;
+    margin-inline: center;
+  }
+
+
+
   /*All The Flex Properties */
   .around { 
     justify-content: space-around; 
+  }
+
+  .wrap-rows { 
+    flex-flow: row wrap; 
   }
 
   .row { 
@@ -201,6 +213,11 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://getwallpapers.com/wallpaper/full/5/9/9/1509622-popular-star-wars-wallpaper-ipad-1125x2436-samsung-galaxy.jpg")
   }
 
+  .hero-image6 {
+    margin: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://media.idownloadblog.com/wp-content/uploads/2019/11/Star-Wars-Rise-of-Skywalker-Emporer-iPhone-wallpaper-no-logo.jpg")
+  }
+
   .hero-image3 {
     height: 600px;
     width: 700px;
@@ -216,8 +233,13 @@ body {
     width: 500px;
   }
 
+  .hero-image6 {
+    height: 520px;
+    width: 600px;
+  }
+
   /*Hero Images Setting*/
-  .hero-image1, .hero-image2, .hero-image3, .hero-image4, .hero-image5 {
+  .hero-image1, .hero-image2, .hero-image3, .hero-image4, .hero-image5, .hero-image6 {
     border-radius: 15px;
     background-position: center;
     background-repeat: no-repeat;
@@ -226,7 +248,7 @@ body {
   }
   
   /* Place text in the middle of the image Hero Images */
-  .hero-text1, .hero-text2, .hero-text3, .hero-text4, .hero-text5 {
+  .hero-text1, .hero-text2, .hero-text3, .hero-text4, .hero-text5, .hero-text6 {
     text-align: center;
     position: absolute;
     top: 50%;
@@ -266,17 +288,24 @@ body {
   }
 
   /*Main Form Setting*/
-  form {
+  .contactform, .checkoutform {
     background-color: #ffffff;
     color: #000000;
-    margin: 50px auto;
     width: 600px;
     padding: 1em;
     border: 2px solid #000000;
     border-radius: 1em;
   }
 
-  /*Placement Of The Form*/
+  .contactform {
+    margin: 50px auto;
+  }
+
+  .checkoutform {
+    margin: 20px;
+  }
+
+  /*List Settings*/
   ul {
     list-style: none;
     padding: 10px;
@@ -326,7 +355,7 @@ form a {
   color: #ffffff;
 }
 
-#pagetitle > div {
+#pagetitle > div, .textcart {
   text-align: center;
 }
 
