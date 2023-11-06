@@ -430,7 +430,8 @@ form a {
     font-size: 10px;
     line-height: 20px;
     margin-inline: auto;
-    margin-left: 50px;
+    margin-left: 30px;
+    padding: 10px;
   }
 
   .flex-parent > div {
@@ -462,11 +463,12 @@ form a {
   }
   
   .flex-container a {
-    font-size: 13px;
+    font-size: 15px;
     line-height: 15px;
     height: 30px;
     width: 65px;
     margin: 20px;
+    padding: 30px;
   }
   
   .flex-container {
@@ -592,6 +594,7 @@ form a {
   
   .hero-image7 {
     height: 350px;
+    padding-top: 50px;
   }
 
 }
