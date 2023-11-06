@@ -493,4 +493,24 @@ form a {
     margin-inline: auto;
   }
 
+  .checkoutform, .hero-image6, .hero-text6 {
+    width: 250px;
+    height: 750px;
+    margin-bottom: 20px;
+    padding-bottom: -20px;
+  }
+  
+  label {
+    width: 200px;
+  }
+  
+  input,textarea {
+    width: 230px;
+  }
+  
+  .formbutton {
+    margin-left: -110px;
+    margin-top: 10px;
+  }
+
 }
