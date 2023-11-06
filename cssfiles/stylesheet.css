@@ -456,4 +456,16 @@ form a {
   .flex-container {
     padding: 10px;
   }
+
+  .abouttitle {
+    height: 90px;
+    width: 450px;
+    font-size: 15px;
+  }
+  
+  .abouttext {
+    height: 300px;
+    width: 520px;
+    font-size: 13px;
+  }
 } 
