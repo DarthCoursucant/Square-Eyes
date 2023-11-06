@@ -410,7 +410,7 @@ form a {
 /*Phone Size*/
 @media screen and (max-width: 600px) {
   
-  .header a  {
+  .header a, .header a.active  {
     height: 40px;
     width: 35px;
     font-size: 12px;
@@ -418,13 +418,13 @@ form a {
     margin-bottom: -10px;
     margin-right: 5px;
   }
-    
+  
   .logo-container img, .logo-container  {
     heigth: 40px;
     width: 80px;
   }
-
-  .flex-parent a {
+  
+  .flex-parent a{
     height: 40px;
     width: 60px;
     font-size: 10px;
@@ -437,6 +437,7 @@ form a {
     height: 180px;
     width: 200px;
     padding-left: 20px;
+    padding-bottom: -10px;
   }
   
   h3 {
@@ -444,7 +445,7 @@ form a {
     line-height: 20px;
     font-size: 15px;
   }
-
+  
   .flex-container a {
     font-size: 13px;
     line-height: 15px;
@@ -456,7 +457,17 @@ form a {
   .flex-container {
     padding: 10px;
   }
-
+  
+  .flex-about {
+    height: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+  
+  .specialbutton {
+    padding: -10px;
+  }
+  
   .abouttitle {
     height: 90px;
     width: 450px;
@@ -468,4 +479,5 @@ form a {
     width: 520px;
     font-size: 13px;
   }
-} 
+
+}
