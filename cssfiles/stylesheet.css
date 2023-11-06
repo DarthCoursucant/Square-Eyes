@@ -458,6 +458,7 @@ form a {
     line-height: 25px;
     font-size: 20px;
     text-align: center;
+    padding-left: 20px;
   }
   
   .flex-container a {
@@ -527,4 +528,42 @@ form a {
     margin-top: 10px;
   }
 
+  .contactform {
+    width: 500px;
+  }
+  
+  .formbutton {
+    font-size: 13px;
+    padding-left: 40px;
+  }
+  
+  .flex-contact > div {
+    width: 150px;
+    height: 100px;
+    font-size: 13px;
+    margin-bottom: 100px;
+  }
+
+  .flex-content img {
+    width: 55px;
+    height: 80px;
+  }
+  
+  .flex-content {
+    padding: 30px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .text {
+    font-size: 13px;
+    line-height: 15px;
+  }
+  
+  .bodybuttons a {
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0px;
+    padding: 10px;
+  }
 }
