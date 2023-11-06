@@ -408,7 +408,7 @@ form a {
 
 
 /*Phone Size*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1284px) {
   
   .header a, .header a.active  {
     height: 40px;
