@@ -566,4 +566,24 @@ form a {
     margin: 0px;
     padding: 10px;
   }
+
+  #pagetitle {
+    margin-inline: auto;
+    padding-left: 10px;
+  }
+
+  .hero-image5, .hero-image4 {
+    width: 400px;
+  }
+  
+  .hero-text5, .hero-text4 {
+    width: 300px;
+    text-align: center;
+  }
+  
+  .hero-image4 {
+    font-size: 18px;
+    line-height: 30px;
+    height: 280px;
+  }
 }
