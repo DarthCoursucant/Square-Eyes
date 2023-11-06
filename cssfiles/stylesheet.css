@@ -572,18 +572,26 @@ form a {
     padding-left: 10px;
   }
 
-  .hero-image5, .hero-image4 {
+  .hero-image5, .hero-image4, .hero-image7 {
     width: 400px;
   }
   
-  .hero-text5, .hero-text4 {
+  .hero-text5, .hero-text4, .hero-text7 {
     width: 300px;
     text-align: center;
   }
   
-  .hero-image4 {
+  .hero-image4, .hero-image7{
     font-size: 18px;
     line-height: 30px;
+  }
+  
+  .hero-image4 {
     height: 280px;
   }
+  
+  .hero-image7 {
+    height: 350px;
+  }
+
 }
